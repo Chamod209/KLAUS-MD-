@@ -7,10 +7,10 @@ services:
     buildCommand: yarn install
     startCommand: yarn start
     plan: free
-    autoDeploy: true
+    autoDeploy: false
     envVars:
       - key: SESSION_ID
-        sync: true
+        sync: false
       - key: STATUS_VIEW_SEEN
         value: true
       - key: MODE
